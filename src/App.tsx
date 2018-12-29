@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { VideoContainer } from './components/VideoContainer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            YRandom
-          </p>
-        </header>
+          <VideoContainer />
       </div>
     );
   }
