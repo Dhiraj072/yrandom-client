@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { VideoContainer } from './components/VideoContainer';
+import VideoContainer from './components/VideoContainer';
 
 class App extends Component {
   render() {
