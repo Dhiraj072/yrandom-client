@@ -16,6 +16,7 @@ export default class VideoContainer extends Component {
     render() {
         return (
             <div className="App-header">
+                <p>Here is a random youtube video!</p>
                 <YouTube
                     videoId={this.state.videoId}
                 />
