@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export function getRandomVideo() {
-    return axios.get('http://yrandom.ap-southeast-1.elasticbeanstalk.com/yrandom/video/random')
+    return axios.get('https://yrandom-api-gateway.dappsr.com/yrandom/video/random')
     .then((resp) => {
         return resp;
     })
