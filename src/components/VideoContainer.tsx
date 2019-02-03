@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import YouTube from 'react-youtube';
-import { getRandomVideo } from '../services/services';
+import React, { Component } from "react";
+import YouTube from "react-youtube";
+import { getRandomVideo } from "../services/services";
 
 export default class VideoContainer extends Component {
-    state = { videoId: "" };
-    componentWillMount() {
+    public state = { videoId: "" };
+    public componentWillMount() {
         getRandomVideo()
         .then((resp) => {
             this.setState({ videoId: resp.data.id });
         })
         .catch((error) => {
-            console.log('Error while trying to get video ', error);
-        })
+            // console.log("Error while trying to get video ", error);
+        });
     }
-    render() {
+    public render() {
         return (
             <div className="App-header">
                 <p>Here is a random youtube video!</p>
@@ -21,5 +21,5 @@ export default class VideoContainer extends Component {
                     videoId={this.state.videoId}
                 />
             </div>
-        )};
+        );}
 }
