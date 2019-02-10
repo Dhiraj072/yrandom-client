@@ -1,0 +1,6 @@
+language: javascript
+jobs:
+  include:
+    - stage: Build
+      script: yarn build
+      after_script: yarn test-with-coverage

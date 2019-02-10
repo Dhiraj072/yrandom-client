@@ -9,6 +9,7 @@
     "@types/react-dom": "^16.0.11",
     "@types/react-youtube": "^7.4.2",
     "axios": "^0.18.0",
+    "codacy-coverage": "^3.4.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2",
@@ -20,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test-with-coverage": "react-scripts test --coverage && cat ./coverage/lcov.info | codacy-coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
