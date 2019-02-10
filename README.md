@@ -1,5 +1,8 @@
 # Youtube service
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f50854f0ae21449e944da4a8e0d49df8)](https://www.codacy.com/app/dhirajbhatt072/yrandom-client?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Dhiraj072/yrandom-client&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/f50854f0ae21449e944da4a8e0d49df8)](https://www.codacy.com/app/dhirajbhatt072/yrandom-client?utm_source=github.com&utm_medium=referral&utm_content=Dhiraj072/yrandom-client&utm_campaign=Badge_Coverage)
+
 A UI client for [yrandom](https://github.com/Dhiraj072/yrandom)
 
 ## Built With
