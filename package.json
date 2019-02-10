@@ -30,7 +30,8 @@
   "jest": {
     "collectCoverageFrom": [
       "src/**.{js,jsx,ts,tsx}",
-      "!src/serviceWorker.ts"
+      "!src/serviceWorker.ts",
+      "!src/index.tsx"
     ]
   },
   "browserslist": [

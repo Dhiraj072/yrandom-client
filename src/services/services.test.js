@@ -14,7 +14,7 @@ it("correctly calls the API to get random video", () => {
 })
 
 it("should correctly handle an API error", () => {
-    mockAxios.get.mockResolvedValue(new Error("Request failed"));
+    mockAxios.get.mockResolvedValue(Promise.reject("Request failed"));
     services.getRandomVideo()
     .then((res) => {
         expect(res.data).toEqual("Request failed");
